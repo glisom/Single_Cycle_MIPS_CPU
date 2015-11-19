@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Nov 17 14:47:49 2015
+# Process ID: 4936
+# Log file: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/vivado.log
+# Journal file: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.xpr

@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../design_files/sign_extend.vhd"
+vhdl xil_defaultlib  "../../../../design_files/pc_register.vhd"
+vhdl xil_defaultlib  "../../../../design_files/mips_cu_behav.vhd"
+vhdl xil_defaultlib  "../../../../design_files/im_4byte_wide.vhd"
+vhdl xil_defaultlib  "../../../../design_files/first_shift_left_2.vhd"
+vhdl xil_defaultlib  "../../../../design_files/dm_4byte_wide.vhd"
+vhdl xil_defaultlib  "../../../../design_files/alu_controller.vhd"
+vhdl xil_defaultlib  "../../../../design_files/alu.vhd"
+vhdl xil_defaultlib  "../../../../design_files/second_shift_left_2.vhd"
+vhdl xil_defaultlib  "../../../../design_files/regfile.vhd"
+vhdl xil_defaultlib  "../../../../design_files/mux_second.vhd"
+vhdl xil_defaultlib  "../../../../design_files/mux_first.vhd"
+vhdl xil_defaultlib  "../../../../design_files/adder_second.vhd"
+vhdl xil_defaultlib  "../../../../design_files/adder_first.vhd"
+vhdl xil_defaultlib  "../../../../design_files/mips_single_cycle_struct.vhd"
+vhdl xil_defaultlib  "../../../../simulation_files/mips_single_cycle_tb.vhd"
+
+# Do not sort compile order
+nosort

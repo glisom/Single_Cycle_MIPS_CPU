@@ -1,0 +1,753 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Nov 19 13:41:21 2015
+# Process ID: 6944
+# Log file: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/vivado.log
+# Journal file: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 670.660 ; gain = 118.582
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_register
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_cu_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/first_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity First_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/second_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Second_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/simulation_files/mips_single_cycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto c45ac0c1ced04702b93dbcebbdde0924 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_single_cycle_tb_behav xil_defaultlib.mips_single_cycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_unsigned
+Compiling architecture struct of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture struct of entity xil_defaultlib.ALU_controller [alu_controller_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.DM [dm_default]
+Compiling architecture struct of entity xil_defaultlib.First_Shift_Left_2 [first_shift_left_2_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.IM [im_default]
+Compiling architecture struct of entity xil_defaultlib.Main_Control_Unit [main_control_unit_default]
+Compiling architecture struct of entity xil_defaultlib.PC_register [pc_register_default]
+Compiling architecture struct of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture struct of entity xil_defaultlib.Second_Shift_Left_2 [second_shift_left_2_default]
+Compiling architecture struct of entity xil_defaultlib.adder_first [adder_first_default]
+Compiling architecture struct of entity xil_defaultlib.adder_second [adder_second_default]
+Compiling architecture struct of entity xil_defaultlib.mux_first [mux_first_default]
+Compiling architecture struct of entity xil_defaultlib.mux_second [mux_second_default]
+Compiling architecture struct of entity xil_defaultlib.mips_single_cycle [mips_single_cycle_default]
+Compiling architecture behavior of entity xil_defaultlib.mips_single_cycle_tb
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot mips_single_cycle_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 685.672 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_single_cycle_tb_behav -key {Behavioral:sim_1:Functional:mips_single_cycle_tb} -tclbatch {mips_single_cycle_tb.tcl} -view {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_single_cycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 700.586 ; gain = 14.914
+open_wave_config {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/simulation_files/mips_single_cycle_wave.wcfg}
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[0] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[1] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[2] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[3] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[4] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[5] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[6] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[7] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[8] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[9] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[10] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[11] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[12] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[13] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[14] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[15] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[16] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[17] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[18] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[19] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[20] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[21] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[22] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[23] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[24] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[25] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[26] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[27] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[28] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[29] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[30] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/regfile_i1/reg_file_mem[31] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/im_i1/im_mem was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/im_i1/im_mem[0] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/im_i1/im_mem[1] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/im_i1/im_mem[2] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/im_i1/im_mem[3] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/im_i1/im_mem[4] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/im_i1/im_mem[5] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/im_i1/im_mem[6] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[0] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[1] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[2] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[3] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[4] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[5] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[6] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[7] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[8] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[9] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[10] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[11] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[12] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[13] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[14] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[15] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[16] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[17] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[18] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[19] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[20] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[21] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[22] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[23] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[24] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[25] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[26] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[27] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[28] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[29] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[30] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[31] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[32] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[33] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[34] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[35] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[36] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[37] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[38] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[39] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[40] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[41] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[42] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[43] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[44] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[45] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[46] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[47] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[48] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[49] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[50] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[51] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[52] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[53] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[54] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[55] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[56] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[57] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[58] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[59] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[60] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[61] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[62] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[63] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[64] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[65] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[66] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[67] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[68] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[69] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[70] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[71] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[72] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[73] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[74] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[75] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[76] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[77] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[78] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[79] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[80] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[81] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[82] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[83] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[84] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[85] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[86] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[87] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[88] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[89] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[90] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[91] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[92] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[93] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[94] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[95] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[96] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[97] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[98] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[99] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[100] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[101] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[102] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[103] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[104] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[105] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[106] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[107] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[108] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[109] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[110] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[111] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[112] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[113] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[114] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[115] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[116] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[117] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[118] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[119] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[120] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[121] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[122] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[123] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[124] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[125] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[126] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[127] was not found in the design.
+WARNING: Simulation object /mips_single_cycle_tb/uut/dm_i1/dm_mem[128] was not found in the design.
+save_wave_config {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+WARNING: [filemgmt 56-12] File 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg' cannot be added to the project because it already exists in the project, skipping this file
+set_property xsim.view {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg} [get_filesets sim_1]
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 250 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/sign_extend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sign_extend
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_register
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_cu_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/first_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity First_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/second_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Second_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle
+ERROR: [VRFC 10-37] sign_extend has only 2 ports [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd:228]
+ERROR: [VRFC 10-1504] unit struct ignored due to previous errors [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd:23]
+INFO: [VRFC 10-240] VHDL file H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 738.984 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/sign_extend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sign_extend
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_register
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_cu_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/first_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity First_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/second_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Second_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/simulation_files/mips_single_cycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto c45ac0c1ced04702b93dbcebbdde0924 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_single_cycle_tb_behav xil_defaultlib.mips_single_cycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 6 elements ; expected 16 [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd:228]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mips_single_cycle_tb in library work failed.
+INFO: [USF-XSim-99] Step results log file:'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 743.246 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/sign_extend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sign_extend
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_register
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_cu_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/first_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity First_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/second_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Second_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/simulation_files/mips_single_cycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto c45ac0c1ced04702b93dbcebbdde0924 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_single_cycle_tb_behav xil_defaultlib.mips_single_cycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 6 elements ; expected 16 [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd:228]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mips_single_cycle_tb in library work failed.
+INFO: [USF-XSim-99] Step results log file:'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 744.090 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/sign_extend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sign_extend
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_register
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_cu_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/first_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity First_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/second_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Second_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/simulation_files/mips_single_cycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto c45ac0c1ced04702b93dbcebbdde0924 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_single_cycle_tb_behav xil_defaultlib.mips_single_cycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_unsigned
+Compiling architecture struct of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture struct of entity xil_defaultlib.ALU_controller [alu_controller_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.DM [dm_default]
+Compiling architecture struct of entity xil_defaultlib.First_Shift_Left_2 [first_shift_left_2_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.IM [im_default]
+Compiling architecture struct of entity xil_defaultlib.Main_Control_Unit [main_control_unit_default]
+Compiling architecture struct of entity xil_defaultlib.PC_register [pc_register_default]
+Compiling architecture struct of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture struct of entity xil_defaultlib.Second_Shift_Left_2 [second_shift_left_2_default]
+Compiling architecture struct of entity xil_defaultlib.adder_first [adder_first_default]
+Compiling architecture struct of entity xil_defaultlib.adder_second [adder_second_default]
+Compiling architecture struct of entity xil_defaultlib.mux_first [mux_first_default]
+Compiling architecture struct of entity xil_defaultlib.mux_second [mux_second_default]
+Compiling architecture struct of entity xil_defaultlib.sign_extend [sign_extend_default]
+Compiling architecture struct of entity xil_defaultlib.mips_single_cycle [mips_single_cycle_default]
+Compiling architecture behavior of entity xil_defaultlib.mips_single_cycle_tb
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot mips_single_cycle_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 744.090 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_single_cycle_tb_behav -key {Behavioral:sim_1:Functional:mips_single_cycle_tb} -tclbatch {mips_single_cycle_tb.tcl} -view {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_single_cycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 744.090 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/sign_extend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sign_extend
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_register
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_cu_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/first_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity First_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/second_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Second_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/simulation_files/mips_single_cycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto c45ac0c1ced04702b93dbcebbdde0924 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_single_cycle_tb_behav xil_defaultlib.mips_single_cycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_unsigned
+Compiling architecture struct of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture struct of entity xil_defaultlib.ALU_controller [alu_controller_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.DM [dm_default]
+Compiling architecture struct of entity xil_defaultlib.First_Shift_Left_2 [first_shift_left_2_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.IM [im_default]
+Compiling architecture struct of entity xil_defaultlib.Main_Control_Unit [main_control_unit_default]
+Compiling architecture struct of entity xil_defaultlib.PC_register [pc_register_default]
+Compiling architecture struct of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture struct of entity xil_defaultlib.Second_Shift_Left_2 [second_shift_left_2_default]
+Compiling architecture struct of entity xil_defaultlib.adder_first [adder_first_default]
+Compiling architecture struct of entity xil_defaultlib.adder_second [adder_second_default]
+Compiling architecture struct of entity xil_defaultlib.mux_first [mux_first_default]
+Compiling architecture struct of entity xil_defaultlib.mux_second [mux_second_default]
+Compiling architecture struct of entity xil_defaultlib.sign_extend [sign_extend_default]
+Compiling architecture struct of entity xil_defaultlib.mips_single_cycle [mips_single_cycle_default]
+Compiling architecture behavior of entity xil_defaultlib.mips_single_cycle_tb
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot mips_single_cycle_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 788.809 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_single_cycle_tb_behav -key {Behavioral:sim_1:Functional:mips_single_cycle_tb} -tclbatch {mips_single_cycle_tb.tcl} -view {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_single_cycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 788.809 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 250 ns
+run 250 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/sign_extend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sign_extend
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_register
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_cu_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/first_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity First_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/second_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Second_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/simulation_files/mips_single_cycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto c45ac0c1ced04702b93dbcebbdde0924 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_single_cycle_tb_behav xil_defaultlib.mips_single_cycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_unsigned
+Compiling architecture struct of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture struct of entity xil_defaultlib.ALU_controller [alu_controller_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.DM [dm_default]
+Compiling architecture struct of entity xil_defaultlib.First_Shift_Left_2 [first_shift_left_2_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.IM [im_default]
+Compiling architecture struct of entity xil_defaultlib.Main_Control_Unit [main_control_unit_default]
+Compiling architecture struct of entity xil_defaultlib.PC_register [pc_register_default]
+Compiling architecture struct of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture struct of entity xil_defaultlib.Second_Shift_Left_2 [second_shift_left_2_default]
+Compiling architecture struct of entity xil_defaultlib.adder_first [adder_first_default]
+Compiling architecture struct of entity xil_defaultlib.adder_second [adder_second_default]
+Compiling architecture struct of entity xil_defaultlib.mux_first [mux_first_default]
+Compiling architecture struct of entity xil_defaultlib.mux_second [mux_second_default]
+Compiling architecture struct of entity xil_defaultlib.sign_extend [sign_extend_default]
+Compiling architecture struct of entity xil_defaultlib.mips_single_cycle [mips_single_cycle_default]
+Compiling architecture behavior of entity xil_defaultlib.mips_single_cycle_tb
+Waiting for 1 sub-compilation(s) to finish...
+Built simulation snapshot mips_single_cycle_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 791.266 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_single_cycle_tb_behav -key {Behavioral:sim_1:Functional:mips_single_cycle_tb} -tclbatch {mips_single_cycle_tb.tcl} -view {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_single_cycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 791.266 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 250 ns
+save_wave_config {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg}
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 350 ns
+save_wave_config {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 19 14:15:22 2015...

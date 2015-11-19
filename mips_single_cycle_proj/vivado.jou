@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Nov 19 13:41:21 2015
+# Process ID: 6944
+# Log file: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/vivado.log
+# Journal file: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.xpr
+launch_simulation
+open_wave_config H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+open_wave_config {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/simulation_files/mips_single_cycle_wave.wcfg}
+save_wave_config {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+set_property xsim.view {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg} [get_filesets sim_1]
+restart
+restart
+run 250 ns
+close_sim
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+close_sim
+launch_simulation
+open_wave_config H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+restart
+run 250 ns
+run 250 ns
+close_sim
+launch_simulation
+open_wave_config H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+restart
+run 250 ns
+save_wave_config {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg}
+restart
+run 350 ns
+save_wave_config {H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_tb_behav.wcfg}
+close_sim

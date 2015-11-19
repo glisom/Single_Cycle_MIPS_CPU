@@ -1,0 +1,32 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/sign_extend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sign_extend
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_register
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_cu_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/first_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity First_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/second_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Second_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mux_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_second
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/adder_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_first
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/mips_single_cycle_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/simulation_files/mips_single_cycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle_tb
